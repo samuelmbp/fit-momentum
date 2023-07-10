@@ -21,6 +21,8 @@ const Navbar = () => {
           src={Logo}
           alt="Logo Fit Momentum"
           style={{
+            width: "48px",
+            height: "48px",
             margin: "0 20px",
           }}
         />
