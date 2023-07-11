@@ -80,6 +80,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             height: "56px",
             position: "absolute",
             right: "0",
+            // borderRadius: "50px",
           }}
         >
           Search
