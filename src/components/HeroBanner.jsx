@@ -1,5 +1,5 @@
+import { Box, Button, Typography } from "@mui/material";
 import React from "react";
-import { Box, Stack, Typography, Button } from "@mui/material";
 import HeroBannerImage from "../assets/images/banner.png";
 
 const HeroBanner = () => {
@@ -33,7 +33,7 @@ const HeroBanner = () => {
         sx={{
           backgroundColor: "#ff2625",
           padding: "10px",
-          borderRadius: "50px",
+          // borderRadius: "50px",
         }}
       >
         Explore Exercises
