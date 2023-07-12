@@ -8,7 +8,7 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => {
     <Box sx={{ mt: { lg: "100px", xs: "0" } }} p="20px">
       <Typography variant="h5" mb={5}>
         Similar{" "}
-        <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
+        <span style={{ color: "#2e94ff", textTransform: "capitalize" }}>
           Target Muscle
         </span>{" "}
         Group
@@ -22,7 +22,7 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => {
       </Stack>
       <Typography variant="h5" mb={5}>
         Similar{" "}
-        <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
+        <span style={{ color: "#2e94ff", textTransform: "capitalize" }}>
           Equipment
         </span>{" "}
         Exercises

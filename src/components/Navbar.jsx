@@ -2,7 +2,7 @@ import { Stack } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/icons/main.png";
 
 const Navbar = () => {
   return (
@@ -33,7 +33,7 @@ const Navbar = () => {
           style={{
             textDecoration: "none",
             color: "#3A1212",
-            borderBottom: "3px solid #FF2625",
+            borderBottom: "3px solid #2e94ff",
           }}
         >
           Home

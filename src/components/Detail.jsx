@@ -1,16 +1,14 @@
 import React from "react";
 import { Typography, Stack, Button } from "@mui/material";
 
-import BodyPartImage from "../assets/icons/body-part.png";
-import TargetImage from "../assets/icons/target.png";
-import EquipmentImage from "../assets/icons/equipment.png";
+import QuestionMark from "../assets/icons/question-mark.png";
 
 const Detail = ({ exerciseDetail }) => {
   const { bodyPart, gifUrl, name, target, equipment } = exerciseDetail;
   const extraDetail = [
-    { icon: BodyPartImage, name: bodyPart },
-    { icon: TargetImage, name: target },
-    { icon: EquipmentImage, name: equipment },
+    { icon: QuestionMark, name: bodyPart },
+    { icon: QuestionMark, name: target },
+    { icon: QuestionMark, name: equipment },
   ];
 
   return (
@@ -30,17 +28,16 @@ const Detail = ({ exerciseDetail }) => {
           is one of the nest exercises to target your {target}. It will help you
           improve your mood and gain energy.
         </Typography>
-        {extraDetail.map((item) => (
-          <Stack key={item.name} direction="row" gap="24px" alignItems="center">
+        {extraDetail.map((item, idx) => (
+          <Stack key={idx} direction="row" gap="24px" alignItems="center">
             <Button
               sx={{
-                background: "#fff2db",
                 borderRadius: "50%",
                 width: "100px",
                 height: "100px",
               }}
             >
-              <img src={item.icon} alt={item.name} />
+              <img src={item.icon} alt={item.name} width="80px" height="80px" />
             </Button>
             <Typography
               textTransform="capitalize"
