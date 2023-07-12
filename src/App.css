@@ -99,8 +99,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 387px;
-  height: 381px;
+  width: 380px;
+  height: 320px;
   text-decoration: none;
 }
 
