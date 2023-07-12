@@ -16,8 +16,6 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     indexOfLastExercise
   );
 
-  console.log(currentExercises);
-
   const paginate = (event, value) => {
     setCurrentPage(value);
 
